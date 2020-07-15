@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="StyleSheet" href="style.css" type="text/css">
+    <h1>ingresar venta</h1>
+    <table border="0" align="center">
+        <tr>
+            <td>CODIGO DEL ARTICULO A INGRESAR</td>
+            <td><label for="codigo"></label>
+                <input type="text" name="codigo" id="codigo"></td>
+        </tr>
+        <tr>
+            <td align="center"><input type="submit" onclick="eliminarAJAX()"></td>
+            </td>
+            <td align="center"><input type="reset" name="Borrar" id="Borrar" value="Borrar"></td>
+        </tr>
+    </table>
+
+    <div class="alert alert-primary" role="alert" id='result'></div>
+
+</body>
+
+</html>

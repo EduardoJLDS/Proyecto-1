@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: black;
+    border-bottom: dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+body {
+    background-color: #12C0D1;
+}
+
+a {
+    border: 1px solid black;
+    background-color: beige;
+    color: black;
+}
+
+#block {
+    border: 2px solid black;
+}
